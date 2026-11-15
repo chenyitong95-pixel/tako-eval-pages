@@ -1,0 +1,4 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>Cebu Pacific · Web check-in</title><link rel="stylesheet" href="style.css"></head><body>
+<header>Cebu Pacific · Web check-in</header><main><h1>Web check-in</h1>
+<form action="t06-seat.html" method="get" id="f"><label>Booking reference</label><input name="ref" required><label>Last name</label><input name="last" required><input type="hidden" name="fee" id="fee"><input type="hidden" name="paidsel" id="paidsel"><button type="submit">Retrieve booking</button></form>
+<script>var qp=new URLSearchParams(location.search);document.getElementById('fee').value=qp.get('fee')||'';document.getElementById('paidsel').value=qp.get('paid')||'';</script><p class="muted" style="margin-top:28px;border-top:1px solid #eee;padding-top:8px">Test page for internal AI evaluation. Not a real service. 内部评测用测试页，非真实服务。</p></main></body></html>

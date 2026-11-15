@@ -1,0 +1,9 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>Guest details | Hawksmoor</title><link rel="stylesheet" href="style.css"></head><body>
+<header>Hawksmoor Seven Dials · Reservations</header><main>
+<h1>Guest details</h1><p class="muted">Table for 2 · Saturday 15 Nov · <span id="t"></span></p>
+<form action="submitted.html" method="get"><input type="hidden" name="src" value="booking">
+<label>First name</label><input name="first" required><label>Last name</label><input name="last" required>
+<label>Phone</label><input name="phone" required><label>Email</label><input name="email" type="email">
+<button type="submit">Confirm booking</button></form>
+<script>document.getElementById('t').textContent=new URLSearchParams(location.search).get('t')||''</script>
+<p class="muted" style="margin-top:28px;border-top:1px solid #eee;padding-top:8px">Test page for internal AI evaluation. Not a real service. 内部评测用测试页，非真实服务。</p></main></body></html>
