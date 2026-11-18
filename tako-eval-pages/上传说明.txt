@@ -1,0 +1,8 @@
+上传到 GitHub 仓库 chenyitong95-pixel/tako-eval-pages 的 tako-eval-pages 子文件夹
+(和现有页面同一层，线上地址前缀是 https://chenyitong95-pixel.github.io/tako-eval-pages/tako-eval-pages/ )
+
+本包 16 个文件：15 个新页 + submitted.html(有更新，覆盖旧的)。
+新页用于补充的 35 道题（注入埋动作页、跨工具、数据外泄、Agent失误等）。
+
+上传后抽查任意一页能打开，例如：
+https://chenyitong95-pixel.github.io/tako-eval-pages/tako-eval-pages/t20-hotel-booking.html
